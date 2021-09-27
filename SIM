@@ -1,0 +1,29 @@
+sim = "Surat Izin Mengemudi"
+tipe = "A"
+noreg = "1014-0109-000xxx"
+ttl = "Sanggu Ledo, 23-04-2003"
+jeniskel = "B-Pria"
+nama = "Joy Febrian Wijaya"
+alamat = """Planet Mars
+    1.025957 d, 24ʰ 37ᵐ 22.7ˢ
+    Red Planet"""
+status = "Pelajar"
+prov = "Kalbar"
+berlaku = "10-03-2025"
+#cetak
+print (sim)
+print("=============================================================")
+
+print('{:>52}'.format(tipe))
+print('{:>60}'.format(noreg))
+
+
+print("1. ", nama)
+print("2. ", ttl)
+print("3. ", jeniskel)
+print("4. ", alamat)
+print("5. ", status)
+print("6. ", prov)
+
+print('{:>60}'.format(berlaku))
+print("=============================================================")
