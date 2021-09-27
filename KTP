@@ -1,0 +1,32 @@
+nik = "61070623xxxxx002"
+ttl = "Sanggu Ledo, 23-04-2003"
+jeniskel = "Laki-laki"
+goldar = "-"
+nama = "Joy Febrian Wijaya"
+alamat = """Planet Mars,
+       RT/RW     :  1.025957 d, 24ʰ 37ᵐ 22.7ˢ
+       Kel/Desa  :  Red Planet
+       Kecamatan :  0.636 (0.4–0.87) kPa, 0.00628 atm"""
+agama = "Kristen"
+kewarga = "WNM"
+berlaku = "Seumur Hidup"
+kerja = "Pelajar/Mahasiswa"
+menikah =False
+#cetak
+print("=============================================================")
+
+print("NIK : ", nik)
+
+print("Nama             : ", nama)
+print("Tempat Tgl Lahir : ", ttl)
+print("Jenik Kelamin    : ", jeniskel)
+print("Alamat           : ", alamat)
+print("Agama            : ", agama)
+if(menikah):
+    print("Status           :  Menikah")
+else:
+    print("Status           :  Belum Menikah")
+print("Pekerjaan        : ", kerja)
+print("Kewarganegaraan  : ", kewarga)
+print("Berlaku Hingga   : ", berlaku)
+print("=============================================================")
